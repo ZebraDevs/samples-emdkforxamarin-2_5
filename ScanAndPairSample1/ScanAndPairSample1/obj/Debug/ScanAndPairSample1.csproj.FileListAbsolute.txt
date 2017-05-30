@@ -1,0 +1,17 @@
+D:\Project\Xamarin_EMDK\4.16\EMDK_Xamarin\Source\Samples\ScanAndPairSample1\ScanAndPairSample1\bin\Debug\ScanAndPaiSample1.dll
+D:\Project\Xamarin_EMDK\4.16\EMDK_Xamarin\Source\Samples\ScanAndPairSample1\ScanAndPairSample1\bin\Debug\ScanAndPaiSample1.pdb
+D:\Project\Xamarin_EMDK\4.16\EMDK_Xamarin\Source\Samples\ScanAndPairSample1\ScanAndPairSample1\bin\Debug\ScanAndPairSample1.ScanAndPairSample1.apk
+D:\Project\Xamarin_EMDK\4.16\EMDK_Xamarin\Source\Samples\ScanAndPairSample1\ScanAndPairSample1\bin\Debug\ScanAndPairSample1.ScanAndPairSample1-Signed.apk
+D:\Project\Xamarin_EMDK\4.16\EMDK_Xamarin\Source\Samples\ScanAndPairSample1\ScanAndPairSample1\bin\Debug\Symbol.XamarinEMDK.dll
+D:\Project\Xamarin_EMDK\4.16\EMDK_Xamarin\Source\Samples\ScanAndPairSample1\ScanAndPairSample1\obj\Debug\ScanAndPairSample1.csprojResolveAssemblyReference.cache
+D:\Project\Xamarin_EMDK\4.16\EMDK_Xamarin\Source\Samples\ScanAndPairSample1\ScanAndPairSample1\obj\Debug\ScanAndPaiSample1.dll
+D:\Project\Xamarin_EMDK\4.16\EMDK_Xamarin\Source\Samples\ScanAndPairSample1\ScanAndPairSample1\obj\Debug\ScanAndPaiSample1.pdb
+D:\Project\Xamarin_EMDK\4.16\EMDK_Xamarin\Source\Samples\ScanAndPairSample1\ScanAndPairSample1\obj\Debug\android\bin\ScanAndPairSample1.ScanAndPairSample1.apk
+D:\Project\Xamarin_EMDK\4.16\EMDK_Xamarin\Source\Samples\ScanAndPairSample1\ScanAndPairSample1\obj\Debug\res\layout\simple_spinner_item.xml
+D:\Project\Xamarin_EMDK\4.16\EMDK_Xamarin\Source\Samples\ScanAndPairSample1\ScanAndPairSample1\obj\Debug\res\layout\main.xml
+D:\Project\Xamarin_EMDK\4.16\EMDK_Xamarin\Source\Samples\ScanAndPairSample1\ScanAndPairSample1\obj\Debug\res\values\strings.xml
+D:\Project\Xamarin_EMDK\4.16\EMDK_Xamarin\Source\Samples\ScanAndPairSample1\ScanAndPairSample1\obj\Debug\res\drawable\icon.png
+D:\Project\Xamarin_EMDK\4.16\EMDK_Xamarin\Source\Samples\ScanAndPairSample1\ScanAndPairSample1\obj\Debug\R.cs.flag
+D:\Project\Xamarin_EMDK\4.16\EMDK_Xamarin\Source\Samples\ScanAndPairSample1\ScanAndPairSample1\obj\Debug\uploadflags.txt
+D:\Project\Xamarin_EMDK\4.16\EMDK_Xamarin\Source\Samples\ScanAndPairSample1\ScanAndPairSample1\obj\Debug\ScanAndPaiSample1.dll.mdb
+D:\Project\Xamarin_EMDK\4.16\EMDK_Xamarin\Source\Samples\ScanAndPairSample1\ScanAndPairSample1\bin\Debug\ScanAndPaiSample1.dll.mdb
