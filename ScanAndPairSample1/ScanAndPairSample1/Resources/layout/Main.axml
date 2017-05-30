@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/nameTitle"
+            android:layout_width="119dp"
+            android:layout_height="match_parent"
+            android:text="Bluetooth Name:" />
+        <EditText
+            android:id="@+id/name"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:singleLine="true"
+            android:hint="MPOS-64001019"
+            android:text="" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/addressTitle"
+            android:layout_width="119dp"
+            android:layout_height="match_parent"
+            android:text="Bluetooth Address:" />
+        <EditText
+            android:id="@+id/address"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:singleLine="true"
+            android:hint="8C:DE:52:12:A2:56"
+            android:text="" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <CheckBox
+            android:id="@+id/alwaysscan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="Always Scan" />
+        <CheckBox
+            android:id="@+id/triggerType"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="Hard Trigger" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/scanDataTitle"
+            android:layout_width="119dp"
+            android:layout_height="match_parent"
+            android:text="ScanData Type:" />
+        <Spinner
+            android:id="@+id/scanDataType"
+            android:layout_width="match_parent"
+            android:layout_height="36dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/scanandpair"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:focusable="true"
+            android:text="Pair">
+            <requestFocus />
+        </Button>
+        <Button
+            android:id="@+id/scanandunpair"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:text="Unpair" />
+    </LinearLayout>
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="20dp">
+        <TextView
+            android:id="@+id/logs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Status:" />
+    </ScrollView>
+</LinearLayout>
