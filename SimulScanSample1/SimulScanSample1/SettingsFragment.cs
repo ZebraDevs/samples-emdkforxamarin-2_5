@@ -101,10 +101,6 @@ public class SettingsFragment : PreferenceFragment , ISharedPreferencesOnSharedP
             CheckBoxPreference connectionPref = (CheckBoxPreference) FindPreference(key);
             Log.Debug(TAG, "Auto capture PreferenceChanged: " + connectionPref.Checked);
             parentActivity.localSettings.enableAutoCapture = connectionPref.Checked;
-        }else if (key.CompareTo("debug") == 0){
-            CheckBoxPreference connectionPref = (CheckBoxPreference) FindPreference(key);
-            Log.Debug(TAG, "Debug PreferenceChanged: " + connectionPref.Checked);
-            parentActivity.localSettings.enableDebugMode = connectionPref.Checked;
         }else if (key.CompareTo("feedback_audio") == 0){
             CheckBoxPreference connectionPref = (CheckBoxPreference) FindPreference(key);
             Log.Debug(TAG, "Audio PreferenceChanged: " + connectionPref.Checked);
@@ -188,8 +184,6 @@ public class SettingsFragment : PreferenceFragment , ISharedPreferencesOnSharedP
         parentActivity.localSettings.enableResultConfirmation = pref3.Checked;
         CheckBoxPreference pref4 = (CheckBoxPreference) FindPreference("auto_capture");
         parentActivity.localSettings.enableAutoCapture = pref4.Checked;
-        CheckBoxPreference pref5 = (CheckBoxPreference) FindPreference("debug");
-        parentActivity.localSettings.enableDebugMode = pref5.Checked;
         CheckBoxPreference pref6 = (CheckBoxPreference) FindPreference("feedback_audio");
         parentActivity.localSettings.enableFeedbackAudio = pref6.Checked;
         CheckBoxPreference pref7 = (CheckBoxPreference) FindPreference("feedback_haptic");

@@ -484,7 +484,6 @@ public class DeviceControl : Fragment, EMDKManager.IEMDKListener
                         config.MultiTemplate = multiTemplate;
 
                     config.AutoCapture = (Java.Lang.Boolean)parentActivity.localSettings.enableAutoCapture;
-                    config.DebugMode = (Java.Lang.Boolean)parentActivity.localSettings.enableDebugMode;
                     config.AudioFeedback = (Java.Lang.Boolean)parentActivity.localSettings.enableFeedbackAudio;
                     config.HapticFeedback = (Java.Lang.Boolean)parentActivity.localSettings.enableHaptic;
                     config.LedFeedback = (Java.Lang.Boolean)parentActivity.localSettings.enableLED;

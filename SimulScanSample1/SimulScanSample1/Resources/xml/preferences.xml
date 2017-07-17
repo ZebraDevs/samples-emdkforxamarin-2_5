@@ -32,11 +32,6 @@
       android:summary="If true, form will be captured automatically when detected"
       android:title="Automatic Image Capture" />
   <CheckBoxPreference
-        android:defaultValue="false"
-        android:key="debug"
-        android:summary="Debug mode writes images, regions, and values to be written to the external storage"
-        android:title="Debug Mode" />
-  <CheckBoxPreference
       android:defaultValue="true"
       android:key="feedback_audio"
       android:summary="If true, turns on audio feedback"
